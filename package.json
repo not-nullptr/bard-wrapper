@@ -1,13 +1,13 @@
 {
 	"name": "bard-wrapper",
-	"version": "1.0.11",
+	"version": "1.0.12",
 	"description": "",
 	"main": "dist/index.js",
 	"devDependencies": {
 		"@types/node": "^20.2.4"
 	},
 	"scripts": {
-		"prepublish": "npm version patch && tsc",
+		"pub": "npm version patch --force && npm publish",
 		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"author": "",
