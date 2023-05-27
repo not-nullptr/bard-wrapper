@@ -1,0 +1,16 @@
+{
+	"name": "bard-wrapper",
+	"version": "1.0.7",
+	"description": "",
+	"main": "dist/index.js",
+	"devDependencies": {
+		"@types/node": "^20.2.4"
+	},
+	"scripts": {
+		"prepublish": "tsc",
+		"test": "echo \"Error: no test specified\" && exit 1"
+	},
+	"author": "",
+	"license": "ISC",
+	"types": "dist/index.d.ts"
+}
