@@ -1,3 +1,10 @@
+class BardError extends Error {
+	constructor(message: string) {
+		super(message);
+		this.name = "BardError";
+	}
+}
+
 /**
  * @description A class representing a Bard conversation.
  */

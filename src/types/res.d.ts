@@ -4,13 +4,6 @@ type StreamResponse = [
 	[string, number, string, number]
 ];
 
-class BardError extends Error {
-	constructor(message: string) {
-		super(message);
-		this.name = "BardError";
-	}
-}
-
 type BardResponse = [
 	[string],
 	[string, string],
