@@ -17,8 +17,8 @@ class Bard {
 	private _dementiaMode = false;
 	/**
 	 * @description Gets the SnlM0e (required secondary auth token?) from Bard's website, using the auth token defined in the constructor.
-	 * @returns The SnlM0e
-	 * @todo This function is potentially unreliable/unstable in unsupported countries and with multiple logged in accounts.
+	 * @returns {string} The SnlM0e as a string
+	 * @todo This function is potentially unreliable/unstable in unsupported countries and with multiple logged in accounts. See [this warning](https://github.com/not-nullptr/bard-wrapper/tree/main#how-do-i-get-an-api-key).
 	 */
 	private getSNlM0e = async () => {
 		const req = await fetch("https://bard.google.com", {
